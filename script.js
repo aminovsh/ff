@@ -4,7 +4,7 @@ let even_names = []
 let odd_names = []
 
 students.map((d , c) => {
-    if (ind % 2 === 0) {
+    if (d % 2 === 0) {
         even_names.push(d)
     } else {
         odd_names.push(d)
