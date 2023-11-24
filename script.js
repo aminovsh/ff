@@ -5,9 +5,9 @@ let odd_names = []
 
 students.map((d , c) => {
     if (ind % 2 === 0) {
-        even_names.push(std)
+        even_names.push(d)
     } else {
-        odd_names.push(std)
+        odd_names.push(d)
     }
 }
 
